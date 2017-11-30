@@ -9,7 +9,7 @@ int main() {
 	double r{};
 
 	std::cout << "Inform the radius of the circle: ";
-	cin >> r;
+	std::cin >> r;
 	std::cout << "Area of the circle: " << math::area(r) << std::endl;
 	
 	return 0;	

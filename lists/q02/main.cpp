@@ -14,11 +14,11 @@ private:
 };
 
 int main() {
-	generate_id generator1 {100}, generator2{200};
+	generate_id generator1{100}, generator2{200};
 
 	std::cout << "Generator with base value 100: " << std::endl;
 	for(int i{0}; i != 10; ++i)
-		std::cout << generator1.next() << std::cout;
+		std::cout << generator1.next() << std::endl;
 
 	std::cout << "Generator with base value 200: " << std::endl;
 	for(int i{0}; i != 10; ++i)

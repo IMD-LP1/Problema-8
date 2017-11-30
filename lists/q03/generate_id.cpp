@@ -1,4 +1,5 @@
 #include "generate_id.hpp"
+#include "generate_id.hpp"
 short generate_id::counter_{0};
 
 short const generate_id::prefix_{1};
